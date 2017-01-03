@@ -1,0 +1,14 @@
+
+  curl -i localhost:8080
+  curl -i localhost:8080/authors
+  curl -i localhost:8080/posts
+  curl localhost:8080
+  curl localhost:8080/posts?size=1
+  curl -i localhost:8080/
+  curl -i localhost:8080/posts
+  curl -i localhost:8080/posts/search
+  curl -i localhost:8080/posts/search/findByTitleContaining?title=Rest
+  curl -i localhost:8080
+  curl localhost:8080/posts
+  curl localhost:8080/posts/2?projection=teaser
+  curl localhost:8080/posts?projection=teaser

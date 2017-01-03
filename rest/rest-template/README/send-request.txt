@@ -1,0 +1,41 @@
+with postman of chrome
+
+Content-Type application/json
+Accept application/json
+
+
+
+GET 
+http://localhost:8080/posts
+
+
+POST 
+http://localhost:8080/posts/
+raw:
+{
+	"title":"A new post created from JSON",
+	"slug":"a-new-post",
+	"teaser":"post teaser",
+	"body":"post body",
+	"postedOn":"2017-01-04",
+	"author":{
+		"firstName":"Q1",
+		"lastName":"Zhao",
+		"email":"dongyaocun@gmail.com"
+	}
+}
+
+
+PUT 
+http://localhost:8080/posts/3
+
+raw:
+{
+	"title":"This is an odd title..."
+}
+
+
+
+DELETE 
+http://localhost:8080/posts/3
+
