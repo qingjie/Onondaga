@@ -10,7 +10,7 @@ db.author.find()
 
 mongo --host IP --port 27017
 use databasename
-db.auth("root", "0p8rr@Fruit")
+db.auth("root", "root")
 show collections
 db.polygon_boundary.find().pretty()
 db.polygon_boundary.getIndexes()
