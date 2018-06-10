@@ -7,7 +7,7 @@ use orange
 db.post.find()
 db.author.find()
 
-
+---
 mongo --host IP --port 27017
 use databasename
 db.auth("root", "root")
